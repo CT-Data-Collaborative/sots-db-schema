@@ -1,0 +1,41 @@
+directory: STOCK
+fields:
+- default:
+  - '12'
+  fk: null
+  length: 2
+  name: RECNO
+  pk: false
+  type: varchar
+- default: null
+  fk: BUS_MASTER(ID_BUS)
+  length: 7
+  name: ID_BUS
+  pk: true
+  type: varchar
+- default: null
+  fk: null
+  length: 4
+  name: ID_SEQ_NBR
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 12
+  name: AM_SHARES
+  pk: false
+  type: numeric(10,0)
+- default: null
+  fk: null
+  length: 30
+  name: CD_SHARE_CLS
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 10
+  name: AM_PAR_VALUE
+  pk: false
+  type: numeric(8,2)
+row_length: 67
+tableName: STOCK

@@ -1,0 +1,143 @@
+directory: PRNCIPAL
+fields:
+  - default:
+    - '13'
+    fk: null
+    length: 2
+    name: RECNO
+    pk: true
+    type: varchar
+  - default: null
+    fk: BUS_MASTER(ID_BUS)
+    length: 7
+    name: ID_BUS
+    pk: true
+    type: varchar
+  - default: null
+    fk: null
+    length: 4
+    name: ID_SEQ_NBR
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: NM_NAME
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: TX_TITLE
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: AD_BUS_STR1
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: AD_BUS_STR2
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: AD_BUS_STR3
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 30
+    name: AD_BUS_CITY
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 2
+    name: AD_BUS_ST
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 5
+    name: AD_BUS_ZIP5
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 4
+    name: AD_BUS_ZIP4
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: AD_BUS_CNTRY
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: AD_RES_STR1
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: AD_RES_STR2
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: AD_RES_STR3
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 30
+    name: AD_RES_CITY
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 2
+    name: AD_RES_ST
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 5
+    name: AD_RES_ZIP5
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 4
+    name: AD_RES_ZIP4
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 40
+    name: AD_RES_CNTRY
+    pk: false
+    type: varchar
+  - default: null
+    fk: null
+    length: 8
+    name: DT_TERM_END
+    pk: false
+    type: date
+  - default: null
+    fk: null
+    length: 8
+    name: DT_TERM_STR
+    pk: false
+    type: date
+row_length: 513
+tableName: PRINCIPAL

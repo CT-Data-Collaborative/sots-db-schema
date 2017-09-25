@@ -1,0 +1,41 @@
+directory: BUSMERGR
+fields:
+- default:
+  - '14'
+  fk: null
+  length: 2
+  name: RECNO
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 10
+  name: ID_BUS_FLNG
+  pk: true
+  type: varchar
+- default: null
+  fk: BUS_MASTER(ID_BUS)
+  length: 7
+  name: ID_SURV_BUS
+  pk: false
+  type: varchar
+- default: null
+  fk: BUS_MASTER(ID_BUS)
+  length: 7
+  name: ID_TERM_BUS
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 4
+  name: ID_SEQ_NBR
+  pk: false
+  type: char
+- default: null
+  fk: null
+  length: 8
+  name: DT_FILING
+  pk: false
+  type: date
+row_length: 40
+tableName: BUS_MRGR

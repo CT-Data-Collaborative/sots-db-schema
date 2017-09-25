@@ -1,0 +1,47 @@
+directory: NAMECHNG
+fields:
+- default:
+  - '10'
+  fk: null
+  length: 2
+  name: RECNO
+  pk: false
+  type: varchar
+- default: null
+  fk: BUS_MASTER(ID_BUS)
+  length: 7
+  name: ID_BUS
+  pk: true
+  type: varchar
+- default: null
+  fk: null
+  length: 10
+  name: ID_BUS_FLNG
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 8
+  name: DT_CHANGED
+  pk: false
+  type: date
+- default: null
+  fk: null
+  length: 100
+  name: NM_OLD
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 100
+  name: NM_NEW
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 100
+  name: NM_OLD_SEARCH
+  pk: false
+  type: varchar
+row_length: 329
+tableName: NAME_CHANGE

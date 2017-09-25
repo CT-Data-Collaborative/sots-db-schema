@@ -1,0 +1,35 @@
+directory: DLMTPART
+fields:
+- default:
+  - '04'
+  fk: null
+  length: 2
+  name: RECNO
+  pk: false
+  type: varchar
+- default: null
+  fk: BUS_MASTER(ID_BUS)
+  length: 7
+  name: ID_BUS
+  pk: true
+  type: varchar
+- default: null
+  fk: null
+  length: 8
+  name: DT_TERM
+  pk: false
+  type: date
+- default: null
+  fk: null
+  length: 8
+  name: DT_RPT_DUE
+  pk: false
+  type: date
+- default: null
+  fk: null
+  length: 1
+  name: CD_RPT_STAT
+  pk: false
+  type: varchar
+row_length: 28
+tableName: DOM_LMT_PART

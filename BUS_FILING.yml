@@ -1,0 +1,548 @@
+directory: BUSFILNG
+fields:
+- default:
+  - 09
+  fk: null
+  length: 2
+  name: RECNO
+  pk: false
+  type: varchar
+- default: null
+  fk: BUS_MASTER(ID_BUS)
+  length: 7
+  name: ID_BUS
+  pk: true
+  type: varchar
+- default: null
+  fk: null
+  length: 10
+  name: ID_BUS_FLNG
+  pk: False
+  type: varchar
+- default:
+  - ADDRESS
+  - ABAND MERGER
+  - ABANDONMENT
+  - ACCEPTCHARTER
+  - ACQUISITION
+  - ADD PRINCIPAL
+  - ADDRESS
+  - AFFID OF FACT
+  - AFFIDAVIT
+  - AGENT
+  - AGENT ADDRESS
+  - AGENT CHANGE
+  - AGENT RESIGN
+  - AGENT'S ADDRESS
+  - AMEND
+  - AMEND NAME
+  - AMEND SHARE
+  - AMENDMENT
+  - ART ASSOCIATION
+  - AUTHORITY
+  - BUSINESS ADDRESS
+  - CANCEL
+  - CANCEL FILING
+  - CANCEL RESERVE
+  - CANCEL SHARES
+  - CANCELLATION
+  - CANCELLED
+  - CANL SHARES
+  - CEASE PRINCIPAL
+  - CERT CORRECTION
+  - CERT INC
+  - CERT. OF ORG
+  - CHANGE AGENT
+  - CHG OF ADDR
+  - CONSOLIDATION
+  - CONVERSION
+  - CONVERSION-B
+  - CONVERTED
+  - CONVERTING
+  - CORRECT DISSLTN
+  - CORRECT MERGER
+  - CORRECT REPORT
+  - CORRECTED ORG
+  - CORRECTION
+  - CONVERSION
+  - CT ORDER REINST
+  - DISSOCIATION
+  - DISSOLUTION
+  - DISSOLVED
+  - DOMESTICATED
+  - DOMESTICATING
+  - DOMESTICATION
+  - ELECT B-STATUS
+  - FINAL AUTHORITY
+  - FINAL CERT
+  - FORFEITED
+  - FORFEITURE
+  - FORMATION
+  - INCORPORATED
+  - INCORPORATED-B
+  - INCORPORATION
+  - INDEX CORRECTED
+  - INSURANCE
+  - INTERIM NOTICE
+  - MEMO TO FILE
+  - MERGE
+  - MERGER
+  - MISC
+  - MISCELLANEOUS
+  - NOTICE
+  - ORG REPORT
+  - ORGANIZATION
+  - PARTNERSHIP
+  - PL OF ACQU
+  - PLAN ACQUISTION
+  - REDOMESTICATED
+  - REDOMESTICATING
+  - REDOMESTICATION
+  - REGISTER NAME
+  - REGISTRATION
+  - REINST/1993
+  - REINST/1994
+  - REINSTATEMENT
+  - RENEWAL REGIST
+  - RENUNCIATION
+  - REPORT (1989)
+  - REPORT (1990)
+  - REPORT (1991)
+  - REPORT (1992)
+  - REPORT (1993)
+  - REPORT(1994)
+  - REPORT(1995)
+  - REPORT(1996)
+  - REPORT(1997)
+  - REPORT(1999)
+  - REPORT(2009)
+  - REPORT(2010)
+  - REPORT(2011)
+  - RESC.REVOCATION
+  - RESCIND REVOC.
+  - RESCISION
+  - RESERVATION
+  - RESIGN AGENT
+  - RESIGNATION
+  - RESTATE
+  - RESTATED
+  - RESTATEMENT
+  - RETIREMT SHARES
+  - REVOCATION DISS
+  - REVOKED
+  - RNST NM CH 0001
+  - RNST NM CH 1995
+  - RNST NM CH 1996
+  - RNST NM CH 1997
+  - RNST NM CH 1998
+  - RNST NM CH 1999
+  - RNST NM CH 2000
+  - RNST/NM CH
+  - RNST/ORG
+  - RNST/ORG/NM CH
+  - RNST/REPORT
+  - RNST/REPRT 93
+  - RNST/RPT
+  - RNST/RPT 0001
+  - RNST/RPT 1900
+  - RNST/RPT 1985
+  - RNST/RPT 1993
+  - RNST/RPT 1994
+  - RNST/RPT 1995
+  - RNST/RPT 1996
+  - RNST/RPT 1997
+  - RNST/RPT 1998
+  - RNST/RPT 2014
+  - RNST/RPT 2015
+  - RSGN AGT/NOTICE
+  - RSGN/NOTICE
+  - SH ACQUISITION
+  - SHARE EXCHANGE
+  - SP REINSTATE
+  - SPEC. CERT.
+  - SPEC. REINSTATE
+  - STATEMENT
+  - SURRENDER
+  - SURVIVE
+  - SURVIVOR
+  - TERM B-STATUS
+  - TRANSFER RESERVATION
+  - TRUST
+  - WITHDRAWAL
+  fk: null
+  length: 15
+  name: TX_CERTIF
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 8
+  name: DT_FILING
+  pk: false
+  type: date
+- default: null
+  fk: null
+  length: 8
+  name: TM_FILING
+  pk: false
+  type: time
+- default: null
+  fk: null
+  length: 8
+  name: DT_HIST
+  pk: false
+  type: date
+- default: null
+  fk: null
+  length: 6
+  name: QT_PAGES
+  pk: false
+  type: numeric(4,0)
+- default: null
+  fk: null
+  length: 26
+  name: TM_STAMP
+  pk: false
+  type: timestamp
+- default:
+  - Y
+  - N
+  fk: null
+  length: 1
+  name: FL_PHYS_FLNG
+  pk: false
+  type: varchar
+- default:
+  - ACAN
+  - ACAS
+  - ACM
+  - ACN
+  - ACS
+  - ASRN
+  - ASRS
+  - BAN
+  - BANC
+  - BAS
+  - BASC
+  - BFFTD
+  - BN
+  - BRVKD
+  - BS
+  - BSB
+  - BT
+  - CAFN
+  - CAFS
+  - CAN
+  - CANC
+  - CAS
+  - CASC
+  - CASCN
+  - CASCS
+  - CCAN
+  - CCANL
+  - CCAS
+  - CCNA
+  - BAADDR
+  - BAGT
+  - CCNR
+  - CCORMN
+  - CCORMS
+  - CCORN
+  - CCORS
+  - CCSA
+  - CCSCN
+  - CCSCNA
+  - CCSCNC
+  - CCSCS
+  - CCSCSA
+  - CCSCSC
+  - CDEN
+  - CDENPO
+  - CDES
+  - CDESPO
+  - CDRN
+  - CDRNNR
+  - CDRNPO
+  - CDRS
+  - CDRSNR
+  - CDRSPO
+  - CEN
+  - CES
+  - CFAN
+  - CFAS
+  - CFN
+  - CFNC
+  - CXME
+  - CFNR
+  - CFNRR
+  - CFRIN
+  - CFRIS
+  - CFRN
+  - CFRNX
+  - CFRO
+  - CFRS
+  - CFRSX
+  - CFS
+  - CFSC
+  - CFWN
+  - CFWS
+  - CICC
+  - CICR
+  - CICUN
+  - CICUS
+  - CIN
+  - CINC
+  - CINMA
+  - CIS
+  - CISCA
+  - CISCAN
+  - CISCAS
+  - CISCN
+  - CISCS
+  - CMIS
+  - CMN
+  - CMNC
+  - CXMS
+  - CMS
+  - CMSC
+  - CNR
+  - CNRT
+  - COCN
+  - COCS
+  - CON
+  - CONMA
+  - COS
+  - COSCA
+  - CPCN
+  - CPCS
+  - CRCA
+  - CRDN
+  - CRDS
+  - CRLC
+  - CRLCF
+  - CRLLP
+  - CRLLPF
+  - CRLP
+  - CRLPF
+  - CRN
+  - CRNX
+  - CRS
+  - CRSX
+  - CSCSN
+  - CSCSS
+  - CSES
+  - CUAN
+  - CRUNID
+  - CXSTL
+  - CUANC
+  - CUAS
+  - CUASC
+  - CXC
+  - CXE
+  - CXL
+  - CXLLCE
+  - CXLLCL
+  - CXLLCS
+  - CXLLPE
+  - CXLLPL
+  - CXLLPS
+  - CXLP
+  - CXM
+  - CXMB
+  - CXML
+  - CXN
+  - CXP
+  - CXS
+  - CXSTE
+  - CXSTS
+  - CZLC
+  - CZLCN
+  - CZN
+  - CZNN
+  - CZNPO
+  - CZNPON
+  - CZS
+  - CZSN
+  - CZLP
+  - CZSPO
+  - CZSPON
+  - FBCKL
+  - FBCKR
+  - FCXC
+  - FCXLLPE
+  - FCXP
+  - FDEBL
+  - FDEBR
+  - FDEPL
+  - FDEPR
+  - FREFL
+  - FREFR
+  - GP
+  - GPA
+  - GPC
+  - GPCGPLC
+  - GPCGPLP
+  - GPDEN
+  - GPDIS
+  - GPDISA
+  - GPM
+  - GPMLP
+  - IAN
+  - IANC
+  - IAS
+  - IASC
+  - IN
+  - IS
+  - CXUNID
+  - BBAR
+  - LC
+  - LCA
+  - LCAA
+  - LCAC
+  - LCACM
+  - LCAR
+  - LCCO
+  - LCCOA
+  - LCD
+  - LCF
+  - LCFA
+  - LCFAA
+  - LCFAC
+  - LCFACM
+  - LCFAR
+  - LCFC
+  - LCINC
+  - LCM
+  - LCMA
+  - LLP
+  - LLPA
+  - LLPAA
+  - LLPAC
+  - LLPACM
+  - LLPAR
+  - LLPF
+  - LLPFA
+  - LLPFAA
+  - CXLPE
+  - LLPFAC
+  - LLPFACM
+  - LLPFAR
+  - LLPFW
+  - LLPLC
+  - LLPR
+  - LP
+  - LPA
+  - LPAA
+  - LPAC
+  - LPACM
+  - LPAR
+  - LPC
+  - LPCO
+  - LPCOA
+  - LPF
+  - LPFA
+  - LPFAA
+  - LPFAC
+  - LPFACM
+  - LPFAR
+  - LPFC
+  - LPLC
+  - LPM
+  - LPMA
+  - NOTC
+  - RSHR
+  - CXLPL
+  - ST
+  - STA
+  - STAA
+  - STAC
+  - STACM
+  - STAR
+  - STC
+  - STCO
+  - STF
+  - STFA
+  - STFAA
+  - STFAC
+  - STFACM
+  - STFAR
+  - STFC
+  - STM
+  - LLPM
+  - XOVRB
+  - XPREB
+  fk: null
+  length: 8
+  name: CD_TRANS_TYPE
+  pk: false
+  type: varchar
+- default:
+  - Y
+  fk: null
+  length: 1
+  name: FL_NM_CHG
+  pk: false
+  type: varchar
+- default:
+  - Y
+  fk: null
+  length: 1
+  name: FL_SHARE_CHG
+  pk: false
+  type: varchar
+- default:
+  - Y
+  fk: null
+  length: 1
+  name: FL_RESTATE
+  pk: false
+  type: varchar
+- default:
+  - Y
+  fk: null
+  length: 1
+  name: FL_AMEND_FILE
+  pk: false
+  type: varchar
+- default:
+  - Y
+  fk: null
+  length: 1
+  name: FL_FINAL_CERT
+  pk: false
+  type: varchar
+- default:
+  - Y
+  fk: null
+  length: 1
+  name: FL_varchar_BUS
+  pk: false
+  type: varchar
+- default:
+  - Y
+  fk: null
+  length: 1
+  name: FL_PLAN_ACQ
+  pk: false
+  type: varchar
+- default:
+  - Y
+  fk: null
+  length: 1
+  name: FL_STK_HOLDER
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 8
+  name: DT_EFFECT
+  pk: false
+  type: date
+- default: null
+  fk: null
+  length: 8
+  name: TM_EFFECT
+  pk: false
+  type: time
+row_length: 125
+tableName: BUS_FILING

@@ -1,0 +1,56 @@
+---
+tables:
+    - name: BUS_MASTER
+      directory: BUSMASTR
+      length: 1158
+    - name: BUS_FILING
+      directory: BUSFILNG
+      length: 125
+    - name: BUS_MRGR
+      directory: BUSMERGR
+      length: 40
+    - name: BUS_OTHER
+      directory: BUSOTHER
+      length: 135
+    - name: BUS_RSVR
+      directory: BUSRSVR
+      length: 360
+    - name: CORP
+      directory: CORP
+      length: 165
+    - name: DOM_LMT_LIAB_PART
+      directory: DLMLPART
+      length: 38
+    - name: DOM_LMT_CMPY
+      directory: DLMTCORP
+      length: 46
+    - name: DOM_LMT_PART
+      directory: DLMTPART
+      length: 28
+    # - #     name: FILMINDX
+    #   directory: FILMINDX
+    #   schema: FILMINDX.csv
+    - name: FOR_LMT_LIAB_PART
+      directory: FLMLPART
+      length: 335
+    - name: FOR_LMT_CMPY
+      directory: FLMTCORP
+      length: 352
+    - name: FOR_LMT_PART
+      directory: FLMTPART
+      length: 151
+    - name: FOR_STAT_TRUST
+      directory: FORSTAT
+      length: 326
+    - name: GEN_PART
+      directory: GENERALP
+      length: 228
+    - name: NAME_CHANGE
+      directory: NAMECHNG
+      length: 329
+    - name: PRINCIPAL
+      directory: PRNCIPAL
+      length: 513
+    - name: STOCK
+      directory: STOCK
+      length: 67

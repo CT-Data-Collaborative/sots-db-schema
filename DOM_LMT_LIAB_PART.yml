@@ -1,0 +1,53 @@
+directory: DLMLPART
+fields:
+- default:
+  - '15'
+  fk: null
+  length: 2
+  name: RECNO
+  pk: false
+  type: varchar
+- default: null
+  fk: BUS_MASTER(ID_BUS)
+  length: 7
+  name: ID_BUS
+  pk: true
+  type: varchar
+- default: null
+  fk: null
+  length: 1
+  name: CD_RPT_STAT
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 8
+  name: DT_RPT_DUE
+  pk: false
+  type: date
+- default: null
+  fk: null
+  length: 8
+  name: DT_DISSOLVE
+  pk: false
+  type: date
+- default: null
+  fk: null
+  length: 8
+  name: DT_INTENT
+  pk: false
+  type: date
+- default: null
+  fk: null
+  length: 1
+  name: FL_INTENT_AGT
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 1
+  name: FL_INTENT_RPT
+  pk: false
+  type: varchar
+row_length: 38
+tableName: DOM_LMT_LIAB_PART
