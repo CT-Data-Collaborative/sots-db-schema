@@ -27,9 +27,6 @@ tables:
     - name: DOM_LMT_PART
       directory: DLMTPART
       length: 28
-    # - #     name: FILMINDX
-    #   directory: FILMINDX
-    #   schema: FILMINDX.csv
     - name: FOR_LMT_LIAB_PART
       directory: FLMLPART
       length: 335
@@ -54,3 +51,6 @@ tables:
     - name: STOCK
       directory: STOCK
       length: 67
+    - name: FILMINDX
+      directory: FILMINDX
+      length: 64

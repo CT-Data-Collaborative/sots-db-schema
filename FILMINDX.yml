@@ -1,0 +1,53 @@
+directory: FILMINDX
+fields:
+- default:
+  - '11'
+  fk: null
+  length: 2
+  name: RECNO
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 10
+  name: ID_BUS_FLNG
+  pk: true
+  type: varchar
+- default: null
+  fk: null
+  length: 1
+  name: VOLUME_TYPE
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 5
+  name: VOLUME_NUMBER
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 4
+  name: START_PAGE
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 26
+  name: IMG_OBJ
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 8
+  name: IMG_FOLDER
+  pk: false
+  type: varchar
+- default: null
+  fk: null
+  length: 5
+  name: PAGES
+  pk: false
+  type: varchar
+row_length: 64
+tableName: FILMINDX
