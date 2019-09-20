@@ -25,6 +25,18 @@ fields:
   - L
   - M
   - O
+  - P
+  - Q
+  - R
+  - S
+  - T
+  - U
+  - V
+  - W
+  - X
+  - Y
+  - Z
+  - B
   fk: null
   length: 1
   name: CD_SUBTYPE
